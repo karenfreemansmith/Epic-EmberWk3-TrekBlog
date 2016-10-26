@@ -8,6 +8,12 @@
 		<div class="row">
 			<div class="col-xs-12">
 				<h1>{{#link-to 'starfleet'}}Starfleet{{/link-to}}</h1>
+			  {{#each model as |article|}}
+
+				    <h2>{{article.headline}}</h2>
+						<h5>by {{article.author}} in {{article.category}}</h5>
+
+			  {{/each}}
 			</div>
 		</div>
 		<div class="row">
