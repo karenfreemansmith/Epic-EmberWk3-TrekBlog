@@ -6,5 +6,5 @@ export default DS.Model.extend({
   headline: DS.attr(),
   image: DS.attr(),
   category: DS.attr(),
-	timestamp: DS.attr()
+	stardate: DS.attr()
 });
