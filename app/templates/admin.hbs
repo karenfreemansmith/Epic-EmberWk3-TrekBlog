@@ -1,1 +1,11 @@
-{{outlet}}
+<div class="row">
+  <div class="col-xs-12">
+    <h1>The Enterprise Communication Administration</h1>
+    <button {{action 'create' article}}>Add New Article</button>
+    {{#each model as |article|}}
+      {{view-article article=article}}
+      <button {{action 'delete' article}}>Delete Article</button>
+      <button {{action 'update' article}}>Update Article</button>
+    {{/each}}
+  </div>
+</div>
