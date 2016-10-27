@@ -1,1 +1,40 @@
-{{yield}}
+{{#if addNewArticle}}
+  <h4>Create New Article</h4>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author"}}
+      </div>
+
+      <div class="form-group">
+        <label for="headline">Headline</label>
+        {{input value=headline id="headline"}}
+      </div>
+
+      <div class="form-group">
+        <label for="category">Category</label>
+        {{input value=category id="category"}}
+      </div>
+
+      <div class="form-group">
+        <label for="content">Article Content</label>
+        {{input value=city id="content"}}
+      </div>
+
+      <div class="form-group">
+        <label for="stardate">Stardate</label>
+        {{input value=stardate id="stardate"}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image URL</label>
+        {{input value=image id="image"}}
+      </div>
+
+      <button {{action 'createArticle' article}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'articleFormShow' article}}>Add New Article</button>
+{{/if}}
