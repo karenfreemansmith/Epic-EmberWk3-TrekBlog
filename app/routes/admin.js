@@ -7,13 +7,16 @@ export default Ember.Route.extend({
 
   actions: {
     createArticle(params) {
-      var newArticle = this.store.createRecord('article', params);
-      newArticle.save();
+      var createArticle = this.store.createRecord('article', params);
+      createArticle.save();
       this.transitionTo('admin');
     },
-    destroyArticle(article) {
-      article.destroyRecord();
-      this.transitionTo('admin');
+    delete(article) {
+      if (confirm('Are you sure you want to delete this article?')) {
+        article.destroyRecord();
+        this.transitionTo('admin');
+      }
     }
+
   }
 });

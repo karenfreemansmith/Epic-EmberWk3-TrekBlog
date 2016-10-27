@@ -6,7 +6,7 @@ export default Ember.Component.extend({
     updateArticleForm() {
       this.set('updateArticleForm', true);
     },
-    update(rental) {
+    update(article) {
       var params = {
         author: this.get('author'),
         headline: this.get('headline'),
