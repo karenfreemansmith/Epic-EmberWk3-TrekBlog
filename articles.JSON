@@ -1,6 +1,5 @@
 {
 	"articles": [{
-	"id": 0,
 	"author": "Admiral JT Kirk",
 	"headline": "Reminder All Personnel: Prime Directive Still Matters",
 	"content": "San Francisco",
@@ -8,7 +7,6 @@
 	"stardate": "1",
 	"image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
 }, {
-	"id": 1,
 	"author": "Cmdr William T Riker",
 	"headline": "Current Mission Update, Looking for Life near that Event Horizon",
 	"content": "Seattle",
@@ -17,7 +15,6 @@
 	"image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
 
 }, {
-	"id": 2,
 	"author": "Capt Jean-Luc Picard",
 	"headline": "Ensure Your Phasers are on Stun and checked in",
 	"content": "Seattle",
@@ -25,7 +22,6 @@
 	"stardate": "1",
 	"image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
 }, {
-	"id": 3,
 	"author": "Guinan",
 	"headline": "Ask Guinan: how much time in the Holodeck seems like too much?",
 	"content": "Seattle",
@@ -33,7 +29,6 @@
 	"stardate": "1",
 	"image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
 }, {
-	"id": 4,
 	"author": "Chief Miles O'Brien",
 	"headline": "No Hide and Seek in the Transporter Room!",
 	"content": "Seattle",
@@ -42,7 +37,6 @@
 	"image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
 
 }, {
-	"id": 5,
 	"author": "Dr. Beverly Crusher",
 	"headline": "Anything can happen: stay prepared!",
 	"content": "Feeling heavy lately? Maybe your mood isn't all that's pulling you down.",
@@ -51,7 +45,6 @@
 	"image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
 
 }, {
-	"id": 6,
 	"author": "Lt Geordi LaForge",
 	"headline": "Maximize your Replicator credits",
 	"content": "Seattle",
@@ -60,7 +53,6 @@
 	"image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
 
 }, {
-	"id": 7,
 	"author": "Ensign Barclay",
 	"headline": "Holosweet?",
 	"content": "Portland",

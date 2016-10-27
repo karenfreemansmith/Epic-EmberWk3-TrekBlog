@@ -11,7 +11,7 @@ export default Ember.Component.extend({
         author: this.get('author') ? this.get('author') : "",
         headline: this.get('headline') ? this.get('headline') : "",
         content: this.get('content') ? this.get('content') : "",
-        category: this.get('category' ? this.get('category') : '8'),
+        category: this.get('category') ? this.get('category') : "8",
         stardate: this.get('stardate') ? this.get('stardate') : "",
         image: this.get('image') ? this.get('image') : "",
       };
