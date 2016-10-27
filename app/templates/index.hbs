@@ -16,29 +16,50 @@
 		<div class="row">
 			<div class="col-xs-6">
 				<h1>{{#link-to 'bridge'}}The Bridge{{/link-to}}</h1>
+				{{#each model as |article|}}
+				  {{view-article article=article}}
+				{{/each}}
 			</div>
 			<div class="col-xs-6">
 				<h1>{{#link-to 'readyroom'}}Captain's Ready Room{{/link-to}}</h1>
+				{{#each model as |article|}}
+				  {{view-article article=article}}
+				{{/each}}
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-xs-12">
 				<h1>{{#link-to 'tenforward'}}Ten-Forward{{/link-to}}</h1>
+				{{#each model as |article|}}
+				  {{view-article article=article}}
+				{{/each}}
 			</div>
 		</div>
 	</div>
 	<div class="col-xs-4">
 		<h1>{{#link-to 'personallog'}}Personal Blogs{{/link-to}}</h1>
+		{{#each model as |article|}}
+			{{view-article article=article}}
+		{{/each}}
 	</div>
 </div>
 <div class="row">
 	<div class="col-xs-4">
 		<h1>{{#link-to 'transporter'}}Transporter{{/link-to}}</h1>
+		{{#each model as |article|}}
+			{{view-article article=article}}
+		{{/each}}
 	</div>
 	<div class="col-xs-4">
 		<h1>{{#link-to 'sickbay'}}Sick Bay{{/link-to}}</h1>
+		{{#each model as |article|}}
+			{{view-article article=article}}
+		{{/each}}
 	</div>
 	<div class="col-xs-4">
 		<h1>{{#link-to 'engineering'}}Engineering{{/link-to}}</h1>
+		{{#each model as |article|}}
+			{{view-article article=article}}
+		{{/each}}
 	</div>
 </div>

@@ -16,7 +16,7 @@
 	"image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
 	"stardate": "1"
 }, {
-	"id": 2,
+	"id": 3,
 	"author": "Capt Jean-Luc Picard",
 	"content": "Seattle",
 	"headline": "Ensure Your Phasers are on Stun and checked in",
@@ -24,7 +24,7 @@
 	"image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
 	"stardate": "1"
 }, {
-	"id": 2,
+	"id": 4,
 	"author": "Guinan",
 	"content": "Seattle",
 	"headline": "Ask Guinan: how much time in the Holodeck seems like too much?",
@@ -32,7 +32,7 @@
 	"image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
 	"stardate": "1"
 }, {
-	"id": 2,
+	"id": 5,
 	"author": "Chief Miles O'Brien",
 	"content": "Seattle",
 	"headline": "No Hide and Seek in the Transporter Room!",
@@ -40,7 +40,7 @@
 	"image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
 	"stardate": "1"
 }, {
-	"id": 2,
+	"id": 6,
 	"author": "Dr. Beverly Crusher",
 	"content": "Feeling heavy lately? Maybe your mood isn't all that's pulling you down.",
 	"headline": "Anything can happen: stay prepared!",
@@ -48,7 +48,7 @@
 	"image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
 	"stardate": "1"
 }, {
-	"id": 2,
+	"id": 7,
 	"author": "Lt Geordi LaForge",
 	"content": "Seattle",
 	"headline": "Maximize your Replicator credits",
@@ -56,7 +56,7 @@
 	"image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
 	"stardate": "1"
 }, {
-	"id": 3,
+	"id": 8,
 	"author": "Ensign Barclay",
 	"content": "Portland",
 	"headline": "Holosweet?",

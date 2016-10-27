@@ -6,7 +6,7 @@ export default Ember.Component.extend({
     articleFormShow() {
       this.set('addNewArticle', true);
     },
-    saveArticle() {
+    createArticle() {
       var params = {
         author: this.get('author') ? this.get('author') : "",
         headline: this.get('headline') ? this.get('headline') : "",
