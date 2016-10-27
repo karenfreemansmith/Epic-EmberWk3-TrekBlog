@@ -15,6 +15,10 @@ Router.map(function() {
   this.route('readyroom');
   this.route('tenforward');
   this.route('personallog');
+  this.route('article', {path: '/article/:article_id'});
+  this.route('admin');
+  this.route('about');
+  this.route('contact');
 });
 
 export default Router;
