@@ -1,15 +1,16 @@
 <div class="container">
-	<h1>The Enterprise</h1>
-	{{!-- <ol>
-		<li>Starfleet</li>
-		<li>The Bridge</li>
-		<li>Ready Room</li>
-		<li>Sick Bay</li>
-		<li>Transporter Room</li>
-		<li>Engineering</li>
-		<li>Ten-Forward</li>
-		<li>Personal Logs</li>
-	</ol> --}}
+	<h1>{{#link-to 'index'}}The Enterprise{{/link-to}}</h1>
+	<h4>
+		<span>{{#link-to 'starfleet'}}Starfleet{{/link-to}}</span> |
+		<span>{{#link-to 'bridge'}}The Bridge{{/link-to}}</span> |
+		<span>{{#link-to 'readyroom'}}Ready Room{{/link-to}}</span> |
+		<span>{{#link-to 'sickbay'}}Sick Bay{{/link-to}}</span> |
+		<span>{{#link-to 'transporter'}}Transporter Room{{/link-to}}</span> |
+		<span>{{#link-to 'engineering'}}Engineering{{/link-to}}</span> |
+		<span>{{#link-to 'tenforward'}}Ten-Forward{{/link-to}}</span> |
+		<span>{{#link-to 'personallog'}}Personal Logs{{/link-to}}</span> |
+		<span>{{#link-to 'admin'}}Admin{{/link-to}}</span> 
+	</h4>
 	<img src="./img/enterprise.png" class="center-block img-responsive">
 	<h3>API Ticker</h3>
 	{{outlet}}

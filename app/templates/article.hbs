@@ -1,6 +1,12 @@
-<img src="{{model.image}}">
 <h2>{{model.headline}}</h2>
 <h3>by {{model.author}}</h3>
-<div>
-  {{model.content}}
+<div class="row">
+  <div class="col-xs-4">
+    <img class="img-thumbnail img-responsive" src="{{model.image}}">
+  </div>
+  <div class="col-xs-8">
+    <div class="row">
+      <p>{{model.content}}</p>
+    </div>
+  </div>
 </div>

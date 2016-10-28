@@ -9,7 +9,11 @@ body {
 a, a:hover, a:active, a:visited {
 	color: goldenrod;
 }
+p {
+	font-size: 1.2em;
+}
 .row {
 	border: dotted silver 2px;
-	background-color: rgba(132, 84, 116, .4);
+	background-color: rgba(132, 84, 116, .7);
+	padding: 12px;
 }

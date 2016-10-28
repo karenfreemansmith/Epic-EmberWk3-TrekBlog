@@ -6,7 +6,7 @@
     {{#each model as |article|}}
       {{view-article article=article  destroyArticle="destroyArticle"}}
       <button {{action 'delete' article}}>Delete Article</button>
-      <button {{action 'update' article}}>Update Article</button>
+      {{update-article article=article update="update"}}
     {{/each}}
   </div>
 </div>
