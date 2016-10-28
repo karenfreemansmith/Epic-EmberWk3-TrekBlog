@@ -5,8 +5,9 @@
     {{new-article createArticle="createArticle"}}
     {{#each model as |article|}}
       {{view-article article=article  destroyArticle="destroyArticle"}}
-      <button {{action 'delete' article}}>Delete Article</button>
-      {{update-article article=article update="update"}}
+      <div class="row">
+        {{update-article article=article update="update"}} <button {{action 'delete' article}}>Delete Article</button>
+      </div>
     {{/each}}
   </div>
 </div>

@@ -9,14 +9,15 @@
 		<span>{{#link-to 'engineering'}}Engineering{{/link-to}}</span> |
 		<span>{{#link-to 'tenforward'}}Ten-Forward{{/link-to}}</span> |
 		<span>{{#link-to 'personallog'}}Personal Logs{{/link-to}}</span> |
-		<span>{{#link-to 'admin'}}Admin{{/link-to}}</span> 
+		<span>{{#link-to 'admin'}}Admin{{/link-to}}</span>
 	</h4>
 	<img src="./img/enterprise.png" class="center-block img-responsive">
-	<h3>API Ticker</h3>
+	
 	{{outlet}}
 </div>
 <footer>
-	<h3>Footer Stuff</h3>
-	{{#link-to 'about'}}Learn more about the starship Enterprise{{/link-to}}
-	{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+	<h3>
+		{{#link-to 'about'}}Learn more about the starship Enterprise{{/link-to}} |
+		{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+	</h3>
 </footer>

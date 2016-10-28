@@ -1,2 +1,11 @@
-<h2>{{#link-to 'article' article.id}}{{article.headline}}{{/link-to}}</h2>
-<h5>by {{article.author}}</h5>
+<div class="row">
+  <div class="col-xs-4">
+    <img src="{{article.image}}" class="img-circle img-responsive">
+  </div>
+  <div class="col-xs-8">
+    <div class="row">
+      <h2>{{#link-to 'article' article.id}}{{article.headline}}{{/link-to}}</h2>
+      <h5>by {{article.author}}</h5>
+    </div>
+  </div>
+</div>
